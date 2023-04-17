@@ -1,4 +1,4 @@
-package com.chaitanya.bankingapp;
+package com.Aditya.bankingapp;
 
 public class Model {
     String phoneno, name, balance, name1, name2, date, transaction_status;
@@ -11,7 +11,6 @@ public class Model {
         this.name = name;
         this.balance = balance;
     }
-
     public Model(String name1, String name2, String balance, String date, String transaction_status) {
         this.name1 = name1;
         this.name2 = name2;
